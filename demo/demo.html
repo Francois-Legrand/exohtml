@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/demo.style.css">
     <title>Mon WebCv</title>
 </head>
 <body>
@@ -17,51 +17,71 @@
     </nav>
     <main>
         <section>
-            <img src="https://www.cdv-dev.fr/images/clock.png" alt="image experience">
-            <h2>Experiences</h2>
+            <div class="top-section">
+                <img class="img-section" src="https://www.cdv-dev.fr/images/clock.png" alt="image experience">
+                <h2>Experiences</h2>
+            </div>
             <article>
-                <span>2021</span>
-                <h3>Développeur TIBCO AG2R LAMONDIALE</h3>
+                <div>
+                    <span>2021-</span>
+                    <h3>Développeur TIBCO AG2R LAMONDIALE</h3>
+                </div>
                 <p>Tibco Software est une entreprise informatique américaine de logiciels, fournisseur de logiciels d'infrastructure pour les organisations dans un contexte de cloud computing.</p>
             </article>
             <article>
-                <span>2019</span>
-                <h3>Développeur web Laravel vue.js NEGOPRICING</h3>
+                <div class="formation-title">
+                    <span>2019-</span>
+                    <h3>Développeur web Laravel vue.js NEGOPRICING</h3>
+                </div>
                 <p>Développement d'un CRM et d'un ERP pour la startUp Négopricing</p>
             </article>
             <article>
-                <span>2007</span>
-                <h3>Technicien informatique hardware CDVINFORMATIQUE</h3>
+                <div class="formation-title">
+                    <span>2007-</span>
+                    <h3>Technicien informatique hardware CDVINFORMATIQUE</h3>
+                </div>
                 <p>Le technicien aura pour tâches principales d'installer et configurer les ordinateurs et autres équipements informatiques et d'assurer leur compatibilité</p>
             </article>
         </section>
         <section>
-            <img src="https://www.cdv-dev.fr/images/graduate.png" alt="image formation">
-            <h2>Formations</h2>
+            <div class="top-section">
+                <img src="https://www.cdv-dev.fr/images/graduate.png" alt="image formation">
+                <h2>Formations</h2>
+            </div>
             <article>
-                <span>2021</span>
-                <h3>Manager de projets informatiques</h3>
+                <div class="formation-title">
+                    <span>2021-</span>
+                    <h3>Manager de projets informatiques</h3>
+                </div>
                 <p>Le développeur d'applications mobiles est chargé de la réalisation technique d'une application, basée sur un cahier des charges précis. Il calcule et conçoit des programmes informatiques pour le traitement des données.</p>
             </article>
             <article>
-                <span>2020</span>
-                <h3>Concepteur Développeur d'applications AFPA</h3>
+                <div class="formation-title">
+                    <span>2020-</span>
+                    <h3>Concepteur Développeur d'applications AFPA</h3>
+                </div>
                 <p>Le développeur d'applications mobiles est chargé de la réalisation technique d'une application, basée sur un cahier des charges précis. Il calcule et conçoit des programmes informatiques pour le traitement des données.</p>
             </article>
             <article>
-                <span>2019</span>
-                <h3>développeur Web POPSCHOOL</h3>
+                <div class="formation-title">
+                    <span>2019-</span>
+                    <h3>développeur Web POPSCHOOL</h3>
+                </div>
                 <p>Le Développeur d’Applications Web & Mobile a pour missions la réalisation technique et le développement informatique. En fonction de ce qui lui est demandé, il est capable de répondre aux besoins du client : optimiser une interface, créer une application ou un site internet, gérer en réseau des données…</p>
             </article>
             <article>
-                <span>1998 Lycée Henry DARRAS</span>
-                <h3>Electrotchnicien</h3>
+                <div class="formation-title">
+                    <span>1998-</span>
+                    <h3>Electrotchnicien</h3>
+                </div>
                 <p>Le technicien électrotechnicien est le spécialiste des applications de l'électricité : il conçoit, analyse, installe et s'occupe de la maintenance des équipements électriques domestiques, industriels (automatisation, automates programmables) ou de bureau.</p>
             </article>
         </section>
         <section>
-            <img src="https://www.cdv-dev.fr/images/edit-code.png" alt="">
-            <h2>Compétences</h2>
+            <div class="top-section">
+                <img class="edit-code" src="https://www.cdv-dev.fr/images/edit-code.png" alt="">
+                <h2>Compétences</h2>
+            </div>
             <div>
                 <img src="https://www.cdv-dev.fr/images/html.png" alt="image html" title="html">
                 <img src="https://www.cdv-dev.fr/images/css1.png" alt="image css" title="css">
@@ -74,9 +94,11 @@
             </div>
         </section>
         <section>
-            <img src="" alt="">
-            <h2>Hobbies</h2>
-            <div>
+            <div class="top-section">
+                <img class="edit-code" src="https://www.cdv-dev.fr/images/edit-code.png" alt="">
+                <h2>Hobbies</h2>
+            </div>
+            <div class="container-hobbies">
                 <a href="./pages/guitare.html">
                     <img src="https://www.cdv-dev.fr/images/guitar.png" alt="image d'une guitare" title="guitare">
                 </a>
@@ -102,18 +124,19 @@
         </section>
         <section>
             <form>
-                <div>
+                <div class="container-form">
                     <label for="exampleFormControlInput1" >Nom*</label> 
-                    <input type="text" id="exampleFormControlInput1" placeholder="Exemple: Jean" required="required"></div> 
-                    <div>
-                        <label for="exampleFormControlInput1">Adresse e-mail*</label> 
-                        <input type="email" id="exampleFormControlInput1" placeholder="Exemple: nom@domaine.com" required="required">
-                    </div> 
-                    <div>
-                        <label for="exampleFormControlTextarea1">Message*</label> 
-                        <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Exemple: Votre message" required="required"></textarea>
-                    </div> 
-                    <button type="submit">Envoyer</button>
+                    <input type="text" id="exampleFormControlInput1" placeholder="Exemple: Jean" required="required">
+                </div> 
+                <div class="container-form">
+                    <label for="exampleFormControlInput1">Adresse e-mail*</label> 
+                    <input type="email" id="exampleFormControlInput1" placeholder="Exemple: nom@domaine.com" required="required">
+                </div> 
+                <div class="container-form">
+                    <label for="exampleFormControlTextarea1">Message*</label> 
+                    <textarea class="width-textarea" id="exampleFormControlTextarea1" col="7" placeholder="Exemple: Votre message" required="required"></textarea>
+                </div> 
+                <button type="submit">Envoyer</button>
             </form>
         </section>
     </main>

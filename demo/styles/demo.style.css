@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header{
+    background-color: #212124;
+    padding: 10px;
+}
+
+h1{
+    font-size: x-large ;
+    text-align: center;
+}
+h3{
+    font-size: small;
+}
+span{
+    font-size: small;
+}
+img{
+    width: 70px;
+    height: auto;
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.container-hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+article>div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-between;
+}
+.width-textarea{
+    width: 164px;
+}
+main{
+    background-color: #212124;
+}
+section{
+    padding: 5%;
+    background-color: #343A40;
+}
+article{
+    margin-top: 10px;
+    margin-bottom: 10;
+}
+article p {
+    margin-left: 10px;
+}
