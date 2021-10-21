@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/commun.style.css">
+    <link rel="stylesheet" href="../styles/demo.style.css">
     <title>La marche</title>
 </head>
 <body>
-    <header>
-        <h1>marche</h1>
-        <span class="menuButton"></span>
-        <span class="menuButton"></span>
-        <span class="menuButton"></span>
-    </header>
-    <nav>
-        <a href="../demo.html">Accueil</a>
-        <a href="./pages/other.html">Réalisations</a>
-        <a href="./pages/other.html">07.81.11.31.67</a>
+    <nav id="menu">
+        <ul>
+            <li class="shadow"><a class="itemMenu" href="../demo.html">Accueil</a></li>
+            <li class="shadow"><a class="itemMenu" href="course.html">Course a pied</a></li>
+            <li class="shadow"><a class="itemMenu" href="cryptomonnaie.html">Cryptomonnaie</a></li>
+            <li class="shadow"><a class="itemMenu" href="cuisine.html">Cuisine</a></li>
+            <li class="shadow"><a class="itemMenu" href="guitare.html">Guitare</a></li>
+            <li class="shadow"><a class="itemMenu" href="serie.html">Serie</a></li>
+            <li class="shadow"><a class="itemMenu" href="marche.html">Marche</a></li>
+        </ul>
     </nav>
+    <header>
+        <h1>Marche</h1>
+        <div class="containerMenuButton" id="bouton"> 
+            <span class="menuButton"></span>
+            <span class="menuButton"></span>
+            <span class="menuButton"></span>
+        </div>
+    </header>
     <main>
         <section>
             <img src="https://i-sam.unimedias.fr/2019/01/15/istock-860246654.jpg" alt="image d'une personne qui marche">
@@ -81,5 +89,6 @@
     <footer>
         <p>bas de page</p>
     </footer>
+    <script src="../js/index.js"></script>
 </body>
 </html>
