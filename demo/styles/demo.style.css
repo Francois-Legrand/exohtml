@@ -122,3 +122,31 @@ nav{
     box-shadow: 0px -2px 0px 0px black;
     padding: 20px;
 }
+.course{
+    width: 328px;
+    height: 325px;
+}
+.crypto-monnaie{
+    width: 328px;
+    height: 325px;
+}
+.marche{
+    width: 328px;
+    height: 325px;
+}
+.cuisine{
+    width: 328px;
+    height: 325px;
+}
+.guitare{
+    width: 328px;
+    height: 325px;
+}
+.jeux{
+    width: 328px;
+    height: 325px;
+}
+.serie{
+    width: 328px;
+    height: 325px;
+}
